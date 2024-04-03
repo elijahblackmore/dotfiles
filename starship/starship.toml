@@ -1,0 +1,18 @@
+add_newline = false
+
+format = """
+$git_branch \
+$directory \
+$character
+"""
+
+[directory]
+format = '[$path]($style)'
+
+[character]
+success_symbol = '[➜](bold green)'
+error_symbol = '[➜](bold red)'
+
+[git_branch]
+symbol = ''
+format = '[$symbol $branch]($style)'
