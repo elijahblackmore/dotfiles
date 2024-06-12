@@ -8,6 +8,7 @@ completion-trigger-len = 1
 completion-timeout = 0
 completion-replace = true
 jump-label-alphabet = "asedfjkil;"
+# jump-label-alphabet = "rstfhdmnauio" # Aptmak
 
 [editor.soft-wrap]
 wrap-indicator = ""
