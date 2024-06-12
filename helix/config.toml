@@ -1,10 +1,13 @@
+theme = "theme"
+
 [editor]
 bufferline = "always"
+line-number = "relative"
 idle-timeout = 0
 completion-trigger-len = 1
 completion-timeout = 0
 completion-replace = true
-jump-label-alphabet = "asdfjkl;"
+jump-label-alphabet = "asedfjkil;"
 
 [editor.soft-wrap]
 wrap-indicator = ""
@@ -18,6 +21,8 @@ left = []
 right = []
 
 [keys.normal]
+"pagedown" = ["half_page_down", "goto_window_center"]
+"pageup" = ["half_page_up", "goto_window_center"]
 "A-j" = ["extend_to_line_bounds", "delete_selection", "paste_after"]
 "A-k" = [
   "extend_to_line_bounds",
